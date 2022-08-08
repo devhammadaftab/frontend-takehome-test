@@ -1,3 +1,7 @@
+## How To Run This Project
+  - npm install
+  - npm start
+
 ## VIVA Front-End Take Home Challenge
 
 Please create a simple website that supports an extremely simple loan application.
