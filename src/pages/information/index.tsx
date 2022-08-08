@@ -1,7 +1,7 @@
 import Employee from './employee'
-import Pernsoal from './personal'
+import Personal from './personal'
 
 export {
     Employee,
-    Pernsoal
+    Personal
 }

@@ -1,5 +1,5 @@
 import { SubRoutes, RoutesConstent } from 'constants/routes'
-import { Pernsoal, Employee } from 'pages/information'
+import { Personal, Employee } from 'pages/information'
 import Empty from 'pages/empty'
 
 const routes = [{
@@ -7,7 +7,7 @@ const routes = [{
     Component: null,
     children: [{
         path: SubRoutes.personal,
-        Component: Pernsoal,
+        Component: Personal,
         children: []
     }, {
         path: SubRoutes.employee,
@@ -16,7 +16,7 @@ const routes = [{
     }]
 }, {
     path: RoutesConstent.notFound,
-    Component: Empty,
+    Component: Personal,
     children: []
 }]
 
